@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    font: var(--text);
+    color: var(--text-color-primary);
+    max-width: 1200px;
+    padding-inline: 20px;
+    margin: auto;
+}
+
+body > h1 {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+   color: #1D4ED8;
+}
+
+:root {
+    --brand-color-light: #60A5FA ;
+    --brand-color-dark: #1D4ED8 ;
+    --bg-color: #0F172A ;
+    --stroke-color: #1E293B ;
+    --text-color-primary: #F1F5F9 ;
+    --text-color-secondary: #CBD5E1;
+
+    --font-family: 'Arthivo',sans-serif;
+    --h1: 800 20px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 16px/140% var(--font-family);
+    --text-span: 600 14px/140% var(--font-family);
+    --text: 600 14px/160% var(--font-family);
+}
+
+h1 , h2 , h3 {
+    font: inherit;
+}
+
+div.center > h1 {
+    color: #60A5FA;
+    font: var(--h1);
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.textogrande {
+    font: var(--h1);
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+
+
+h4 {
+    padding-top: 8px;
+    
+}
+
+div.gap-32 {
+    gap: 32px;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    "featured featured"
+    "weekly weekly"
+    "ai aside" ;
+    padding-bottom: 10px;
+   
+}

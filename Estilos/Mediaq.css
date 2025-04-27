@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    li {
+        margin-top: 5px;
+        font-size: larger;
+    }
+}
+
+figcaption h4 {
+    font-size: 1vw;
+    line-height: 10px;
+}
+
+section {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+div.gap-32 {
+    p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+div.aparte {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 10px;
+    width: 50vw;
+    
+
+    
+
+    h3 {
+        margin-top: 5px;
+    }
+}
+

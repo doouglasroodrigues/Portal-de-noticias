@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+body {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        li {
+            margin-top: 5px;
+            
+        }
+    }
+}
+
+h1.textogrande {
+    font-size: 2vw;
+    
+}
+
+figcaption h4 {
+    font-size: 1vw;
+    line-height: 10px;
+}
+
+section {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+div.gap-32 {
+    p {
+        font-size: 9px;
+        line-height: 10px;
+    }
+}
+
+section.aside {
+    img {
+        margin-top: 30px;
+    }
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+    "featured featured"
+    "weekly weekly"
+    "ai ai"
+    "aside aside" ;
+     }
+
+     div.aparte {
+        
+        width: 90vw;
+     }
+
+     section.weekly {
+        
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: 
+            "A B"
+            "C D";
+            
+        }
+
+     }
+
+ div.gap-32 {
+        p {
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+
+figure.head-noticias1 {
+        grid-area: A;
+        
+        
+     }
+
+figure.head-noticias2 {
+        grid-area: B;
+        
+     }
+figure.head-noticias3 {
+        grid-area: C; 
+        
+     }
+figure.head-noticias4 {
+        grid-area: D;
+        
+     }
+
+section#featured {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "A A"
+    "A A"
+    "B C"
+    "D E"
+}
+
+figure.cardfir {
+    grid-area: A;
+
+    h1 {
+        font-size: 20px;
+        text-align: justify;
+        line-height: 25px;
+    }
+}
+
+
+div.grid-col-2  {
+    
+    figure.cardphoto:nth-child(1) {
+       width: 4-vw;
+       height: 40vw;
+       
+    }
+
+    figure.cardphoto:nth-child(2) {
+        width: 40vw;
+       height: 40vw;
+    }
+
+    figure.cardphoto:nth-child(3) {
+        width: 40vw;
+       height: 40vw;
+      
+    }
+
+    figure.cardphoto:nth-child(4) {
+        width: 40vw;
+       height: 40vw;
+      
+    }
+
+    h4 {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 15px;
+    }
+    
+}

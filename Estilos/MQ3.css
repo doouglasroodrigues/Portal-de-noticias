@@ -2,15 +2,4 @@
 
 
 
-header.first-header , main {
-    display: none;
-}
-
-body {
-    background-color: #0F172A;
-    h1 {
-        display: block;
-        padding-top: 50vw;
-    }
-}
 
